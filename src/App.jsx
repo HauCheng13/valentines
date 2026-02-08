@@ -194,7 +194,7 @@ function App() {
               className="btn-yes"
               onClick={() => setYesPressed(true)}
             >
-              Yes 💕
+              Sure 💕
             </button>
             {/* Placeholder to keep layout stable */}
             {noPos.position === 'absolute' && btnSize && (
@@ -208,7 +208,7 @@ function App() {
               onTouchStart={moveButton}
               onClick={moveButton}
             >
-              No 🙅‍♀️
+              No way 🙅‍♀️
             </button>
           </div>
         </div>
