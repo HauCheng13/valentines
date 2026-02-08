@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import './index.css'
 import valentineImg from './assets/valentine.jpg'
+import valentineImg1 from './assets/valentinepic.jpg'
 import penguinImg from './assets/penguin.jpg'
 
 function App() {
@@ -186,7 +187,7 @@ function App() {
 
       {!yesPressed ? (
         <div className="container" ref={containerRef}>
-          <img src={valentineImg} alt="Us" className="valentine-img" />
+          <img src={valentineImg1} alt="Us" className="valentine-img" />
           <h1>Will you be my Valentine? 💗</h1>
           <div className="buttons">
             <button
